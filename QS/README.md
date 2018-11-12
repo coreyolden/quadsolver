@@ -6,4 +6,4 @@ Commands to use to control the program
 
 "make use" - run the program
 
-"make test" - run the preloaded test to check for input
+"make test" - run the preloaded test to check for proper output
