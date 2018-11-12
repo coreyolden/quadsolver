@@ -1,1 +1,5 @@
-Correct output
+This is not quadratic because b²-4ac<0
+One root was found was found (-b + √b²-4ac)/2a = -0.666667
+That number is not quadratic because a = 0
+
+//Not done
