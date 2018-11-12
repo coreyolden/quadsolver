@@ -42,7 +42,7 @@ int verifyinput(double a, double b, double c, double d){
 
     int valid = 1;
     if(!a){
-        printf("That number is not quadratic because a =0\n");
+        printf("That number is not quadratic because a = 0\n");
         valid = 0;
     }
     if (isnormal(a)==0){
@@ -68,7 +68,7 @@ void solveQuadratic(double a, double b, double c, double d){
 
     if (d == 0){
         double root = (-b + sqrt(d)) / (2 * a);
-        printf("One root was found was found (-b + √b²-4ac)/2a = %lf", root);
+        printf("One root was found was found (-b + √b²-4ac)/2a = %lf\n", root);
     }
     if (d > 0){
         double positiveRoot = (-b + sqrt(d)) / (2 * a);
