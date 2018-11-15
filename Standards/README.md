@@ -1,1 +1,5 @@
-These are our standards:
+Standards:
+  OS: Linux
+  Language: C
+  C standard: C99
+  Testing framework: Cunit
