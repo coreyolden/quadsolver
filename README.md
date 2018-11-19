@@ -2,7 +2,7 @@
 
 A command line program for the quadratic solver.
 
-QS: Contains the main program
+QS: Contains the main program\n
 References: Contains links to outside sources
 Standards: Contains information on the software we used and standards for them
 TPS-Stories: Contains our weekly TPS reports and our main Stories
