@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-
-int verifyinput(double a, double b, double c,double d);
-void solveQuadratic(double a, double b, double c, double d);
-int normalnumber(double num);
+#include "quad.h"
 
 int main(int argc, char *argv[]){
     char *input=malloc(512);
