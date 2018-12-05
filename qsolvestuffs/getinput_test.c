@@ -15,6 +15,14 @@ int main(void){
     ret = getinputs(&coef, vals);
     assert_eq("input validation", ret, 1);
 
+    vals = "1";
+    ret = getinputs(&coef, vals);
+    assert_eq("input validation", ret, 0);
+    
+    vals = "1 5 3";
+    ret = getinputs(&coef, vals);
+    assert_eq("input validation", ret, 1);
+    
     return 0;
 }
 
