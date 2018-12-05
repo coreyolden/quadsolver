@@ -1,6 +1,6 @@
 
 #include "validinput.h"
-int validDouble(double num){
+int validDouble(float num){
     int valid = 1;
     if (isnan(num))
     {
