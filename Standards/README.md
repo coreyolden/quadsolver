@@ -1,4 +1,5 @@
-# Standards:
+# Coding Standards:
+Defined rules and guidelines for the formating of source code.  It allows any who join the project to read and write code in the same way as all other team members\
   OS: Linux\
   Language: C\
   C standard: C99\
