@@ -1,4 +1,4 @@
-
+#include "validinput.h"
 #include "qsolveValidRoots.h"
 
 int validateRoots(coefficients *coefs, roots *root){

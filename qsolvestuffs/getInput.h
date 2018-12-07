@@ -1,4 +1,3 @@
-
 #include "qsolveValidRoots.h"
 
 #include <stdio.h>

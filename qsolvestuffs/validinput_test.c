@@ -1,4 +1,5 @@
 #include "validinput.h"
+#include "qsolveValidRoots.h"
 #include "Asserts.h"
 
 int main(void){
