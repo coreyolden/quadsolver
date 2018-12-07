@@ -3,7 +3,6 @@
 #include "Asserts.h"
 
 int main(void){
-  coefficients coef;
   int ret;
   float a = 3.2;
   ret = validDouble(a);
