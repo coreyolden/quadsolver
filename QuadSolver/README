@@ -1,0 +1,9 @@
+Instructions for using the quad solver
+1. open a terminal
+2. type "make"
+3. type "make run" to run the program
+
+Extras:
+type "make test" to run tests
+type "make deploy" to generate a tar file for deployment
+type "make clean" to remove excess files

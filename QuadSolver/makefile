@@ -2,7 +2,7 @@ CFLAGS = -Wall -pedantic -std=c99
 CC = gcc
 LIBS= -lm
 SHELL = /bin/bash
-SRC = getinput.c qsolveSqrt.c qsolveValidRoots.c quadmain.c validinput.c qsolvemain.c
+SRC = getInput.c qsolveSqrt.c qsolveValidRoots.c quadmain.c validinput.c getValidRoots_test.c validinput_test.c getinput_test.c
 
 all: qsolve getValidRoots_test getinput_test validinput_test
 
@@ -35,4 +35,7 @@ test:
 	./validinput_test
 
 clean:
-	rm *.o getinput_test getValidRoots_test qsolve qsolvemain quadratic validinput_test
+	rm *.o getinput_test getValidRoots_test qsolve validinput_test QuadSolver.tar
+
+deploy:
+	tar -zcvf QuadSolver.tar ${SRC} *.h README makefile
