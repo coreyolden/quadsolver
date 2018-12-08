@@ -1,0 +1,22 @@
+Standards for git workflow
+
+We will be using a "feature branch workflow"
+
+Rules:
+1. Never work on the master branch
+2. checkout a new branch when working on a new feature
+3. add and commit changes to your feature branch as you work on it
+4. when finished with your feature then issue a pull request and merge branch back with master
+
+Example:
+Kenny works on a new feature so creates a new branch with a specific name (-b is to create new branch)
+	git checkout -b kennys-feature-branch
+
+Kenny works on the branch and makes commits
+	git add someFile.txt anotherFile.txt
+	git commit -m "added some files"
+
+Kenny repeats the above step until his feature is finished
+
+Kenny then pushes his branch to origin (this can be done as many times as you want while working on the feature)
+	git push origin kennys-feature-branch
