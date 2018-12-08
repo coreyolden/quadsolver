@@ -1,0 +1,15 @@
+This is a basic quad solver program you will input 3 a,b,c in a string and it will use them to solve the quadratic equation
+Please input your values a,b, and c separted by spaces
+a cannot be 0
+Please input your values a,b, and c separted by spaces
+You entered bad input
+Please input your values a,b, and c separted by spaces
+You entered bad input
+Please input your values a,b, and c separted by spaces
+You entered bad input
+Please input your values a,b, and c separted by spaces
+You entered bad input
+Please input your values a,b, and c separted by spaces
+Two roots were found.
+(-b + √b²-4ac)/2a = -1.000000
+(-b - √b²-4ac)/2a = -1.250000
