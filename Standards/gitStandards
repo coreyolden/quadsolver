@@ -20,3 +20,5 @@ Kenny repeats the above step until his feature is finished
 
 Kenny then pushes his branch to origin (this can be done as many times as you want while working on the feature)
 	git push origin kennys-feature-branch
+
+Kenny then
