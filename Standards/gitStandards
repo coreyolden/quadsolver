@@ -3,17 +3,24 @@ Standards for git workflow
 We will be using a "feature branch workflow"
 
 Rules:
-1. Never work on the master branch
-2. checkout a new branch when working on a new feature
-3. add and commit changes to your feature branch as you work on it
-4. when finished with your feature then issue a pull request and merge branch back with master
+1. Frequently update your forked clone to the master branch so you are working on the most recent version
+2. Never work on the master branch
+3. Checkout a new branch when working on a new feature
+4. Add and commit changes to your feature branch as you work on it
+5. When finished with your feature then issue a pull request and merge branch back with master
 
 Example:
-Kenny works on a new feature so creates a new branch with a specific name (-b is to create new branch)
+Kenny starts working on a feature for a project he already has cloned
+
+He must first update his version of master
+	git checkout master
+	git pull
+
+Kenny works on a new feature so he creates a new branch with a specific name (-b is to create new branch)
 	git checkout -b kennys-feature-branch
 
 Kenny works on the branch and makes commits
-	git add someFile.txt anotherFile.txt
+	git add someFile.txt anotherFile.php
 	git commit -m "added some files"
 
 Kenny repeats the above step until his feature is finished
@@ -21,4 +28,5 @@ Kenny repeats the above step until his feature is finished
 Kenny then pushes his branch to origin (this can be done as many times as you want while working on the feature)
 	git push origin kennys-feature-branch
 
-Kenny then
+Kenny then issues a pull request when completely finished with the feature to merge with the master branch
+	This must be done from the github website in a browser
