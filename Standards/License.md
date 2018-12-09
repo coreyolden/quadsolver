@@ -1,1 +1,2 @@
-# License Standards
+# License
+  GPL 2.0
